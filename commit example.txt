@@ -1,0 +1,44 @@
+dean@Dean-Tower MINGW64 ~/html-css-training (master)
+$ GIT STATUS
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dean@Dean-Tower MINGW64 ~/html-css-training (master)
+$ GIT ADD --ALL
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+
+dean@Dean-Tower MINGW64 ~/html-css-training (master)
+$ GIT STATUS
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+
+
+dean@Dean-Tower MINGW64 ~/html-css-training (master)
+$ GIT COMMIT -M "ADD .GITIGNORE FILE"
+[master (root-commit) e2cf9f9] add .gitignore file
+ 1 file changed, 51 insertions(+)
+ create mode 100644 .gitignore
+
+dean@Dean-Tower MINGW64 ~/html-css-training (master)
+$ GIT LOG
+commit e2cf9f98c9723f686f71ff0a36e540365d0d61b6 (HEAD -> master)
+Author: dean7208 <54290738+dean7208@users.noreply.github.com>
+Date:   Thu Jun 18 10:28:58 2020 -0400
+
+    add .gitignore file
+
+dean@Dean-Tower MINGW64 ~/html-css-training (master)
+$
